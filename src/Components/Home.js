@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import '../index.css'
+
 function Home(){
     return (
         <HomeDetail>
@@ -22,5 +24,8 @@ export default Home
 const HomeDetail = styled.div`
 color: #E6E6FF;
 justify-content: center;
+font-family: 'Montserrat', sans-serif;
+//font-family: 'Quicksand', sans-serif;
 width: 75%;
+margin: 75px
 `

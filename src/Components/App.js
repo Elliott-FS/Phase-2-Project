@@ -3,7 +3,7 @@
 
 import styled from 'styled-components'
 import {useState, useEffect} from 'react'
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route} from 'react-router-dom';
 import Forms from "./Forms";
 import Search from "./Search";
 import Header from './Header';
@@ -61,14 +61,15 @@ function App() {
     //quest section 
 
     function getNewQuest(newQuestObj){
+        console.log(questData)
         setQuestData([...questData, newQuestObj])
-        // fetch('http://localhost:3000/quest', {
-        //     method: "POST",
-        //     headers: {'Content-Type':'application/json'},
-        //     body: JSON.stringify(newQuestObj)
-        // })
+        fetch('http://localhost:3000/quest', {
+            method: "POST",
+            headers: {'Content-Type':'application/json'},
+            body: JSON.stringify(newQuestObj)
+        })
     }
-
+ 
 
     return(
     <div className='App'>
@@ -87,7 +88,7 @@ function App() {
          </Route>
          <Route  path="/">
             <Home />
-           </Route> 
+           </Route>
          </Switch>
     </div>
 )

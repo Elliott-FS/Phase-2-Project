@@ -4,25 +4,25 @@
       "id": 1,
       "name": "Wanda Maximoff",
       "role": "Mage",
-      "abilities": " telekinesis, energy manipulation, mind read, waking nightmares",
+      "abilities": "Telekinesis, energy manipulation, mind read, waking nightmares",
       "hp": 350,
-      "image": "https://i.pinimg.com/736x/9f/1b/37/9f1b3782f945424d48e3f0cf8d0edd0b.jpg"
+      "image": "https://stylecaster.com/wp-content/uploads/2022/05/Doctor-Strange-in-the-Multiverse-of-Madness-5.jpg"
     },
     {
       "id": 2,
       "name": "Samdolf",
       "role": "Mage",
-      "abilities": "wisest man, ability to influence beings through his mind, manipulates light into becoming fires",
+      "abilities": "The wisest man, has the ability to influence beings through his mind, manipulates light into becoming fires",
       "hp": 400,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/GANDALF.jpg"
+      "image": "https://ramblingeveron.com/wp-content/uploads/2016/06/gandalf.jpg"
     },
     {
       "id": 3,
       "name": "Maleficent",
       "role": "Mage",
-      "abilities": "Telekinesis, Elemental Control, Transfiguration, Energy Manipulation/Projection, Self-Resurrection, Healing, Spell Casting, Hypnosis, Telepathy, Teleportation, Accelerated Healing Factor, Immortality, Shapeshifting",
+      "abilities": "Telekinesis, Elemental Control, Energy Manipulation/Projection, Self-Resurrection, Immortality, Shapeshifting",
       "hp": 515,
-      "image": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-w6b5q6_1dd2d51b.jpeg?region=0%2C0%2C600%2C600"
+      "image": "https://www.justwatch.com/images/backdrop/163968295/s640/maleficent"
     },
     {
       "id": 4,
@@ -38,7 +38,7 @@
       "role": "Ranged",
       "abilities": "He is very accurate",
       "hp": 375,
-      "image": "https://pbs.twimg.com/media/FDeN1vMVIAYa42A.jpg:large"
+      "image": "https://thedisinsider.com/wp-content/uploads/2021/04/hawkeye-2020-artwork-3s.jpg"
     },
     {
       "id": 6,
@@ -54,7 +54,7 @@
       "role": "Ranged",
       "abilities": "Extendable necks, large mouths, only travel in packs of 4",
       "hp": 400,
-      "image": "https://i.giphy.com/media/Fwn1auHR2LUGI/200.webp"
+      "image": "https://media2.giphy.com/media/1eEB6PajXo34ERbE9g/200.webp?cid=ecf05e4716xf6ds1sfvqg330h4lbknh9ksnxs6xauvnitkya&rid=200.webp&ct=g"
     },
     {
       "id": 8,
@@ -70,7 +70,7 @@
       "role": "Melee",
       "abilities": "Lightning fast martial arts, a chi energy attack called 'Kikosho'",
       "hp": 400,
-      "image": "https://thesource.com/wp-content/uploads/2018/03/chun-li.jpg"
+      "image": "https://wallpaper.dog/large/20515592.jpg"
     },
     {
       "id": 10,
@@ -86,7 +86,7 @@
       "role": "Melee",
       "abilities": "Rock'em style boxing",
       "hp": "1hp: will only recieve damage if struck directly under the chin",
-      "image": "https://c.tenor.com/GixpjhfIBEEAAAAM/rockem-sockem-punch.gif"
+      "image": "https://media2.giphy.com/media/xhNKpS0oC3wly/giphy.gif"
     },
     {
       "id": 12,
@@ -95,43 +95,16 @@
       "abilities": "Being the descendant of the cryomancers, Sub-Zero possesses power over ice and the ability to control it in many forms",
       "hp": 450,
       "image": "https://www.gameinformer.com/sites/default/files/styles/full/public/2021/04/19/87f31b68/mortal_kombat_cosplayer_sub-zero_cosplay.png"
-    },
-    {
-      "name": "Bulbasaur",
-      "role": "Melee",
-      "abilities": "Grass Type",
-      "hp": "350",
-      "image": "https://media.gamestop.com/i/gamestop/11161263/Loungefly-Pokemon-Bulbasaur-Metallic-Mini-Backpack?$pdp$",
-      "id": 13
-    },
-    {
-      "name": "GI JOE",
-      "role": "Melee",
-      "abilities": "Has",
-      "hp": "0",
-      "image": "https://m.media-amazon.com/images/I/9104IVwMMDL._AC_SY879_.jpg",
-      "id": 14
-    },
-    {
-      "name": "Anonymous",
-      "role": "Magic",
-      "abilities": "Magic",
-      "hp": "0",
-      "image": "https://m.media-amazon.com/images/I/9104IVwMMDL._AC_SY879_.jpg",
-      "id": 15
     }
   ],
   "quest": [
     {
-      "Quest": "Graduation",
+      "id": 1,
+      "Quest": "Graduation! Journey through the multiverse and Graduate Flatiron.",
       "image_quest": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/v1397752768/e4ce735bc7e299313e5ca95eaf86a030.png",
-      "desc": "The quest is to graduate Flatiron",
       "Ranged": "Zev",
-      "Ranged_img": "https://w7.pngwing.com/pngs/483/498/png-transparent-deadpool-desktop-film-cable-deadpool-superhero-fictional-character-deadpool.png",
       "Melee": "Elliott",
-      "Melee_img": "https://images6.alphacoders.com/474/474469.jpg",
-      "Mage": "Hiba",
-      "Mage_img": ""
+      "Mage": "Hiba"
     }
   ]
 }

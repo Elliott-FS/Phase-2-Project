@@ -1,28 +1,40 @@
-import {Link, NavLink} from 'react-router-dom'
+import {Link, NavLink } from 'react-router-dom'
+
 import styled from 'styled-components'
+import '../index.css'
+
+
 function Header() {
+ 
+
 return(
 <header>
  <Nav>
   <nav>
     <div className='Nav'>
-        
-        <NavLink to="/" style={{textDecoration: 'none'}}>
-        <h1>Multiverse Adventure</h1>
-        </NavLink>
-       
-        <NavLink exact to="/fighters">
-        <button className='nav-button'>Fighters</button>
-        </NavLink>
-        
-        <NavLink exact to="/quest">
-        <button className='nav-button'>Quests</button>
-        </NavLink>
-        
-        <NavLink exact to={"/adventure"}>
+       {/* <Link> */}
+         <a href="/" style={{textDecoration: 'none'}}>
+          <h1>Multiverse Adventure</h1>
+         </a> 
+      {/* </Link> */}
+        {/* <Link  to="/fighters"> */}
+        <a href="/fighters">
+         <button className='nav-button'>Fighters</button>
+        </a>
+        {/* </Link> */}
+      
+        {/* <Link  to="/adventure"> */}
+        <a href="/adventure">
         <button className='nav-button'>Adventure</button>
-        </NavLink>
-    
+        </a>
+        {/* </Link> */}
+
+        
+        {/* <Link  to="/quest"> */}
+        <a href="/quest">
+        <button className='nav-button'>Quests</button>
+        </a>
+        {/* </Link> */}
     </div>
   </nav>
  </Nav>
@@ -36,17 +48,20 @@ export const Nav = styled.nav`
       flex-direction: row;
       justify-content: center;
       margin-bottom: 20px;
-
+      
       .nav-button{
-        justify-content: space-between;
+        display: center;
+        width: 100%;
+        &:hover{background-color: violet;}
       }
-
-
+      
 
       h1{
         color: #E6E6FF;
         font-family: 'Cinzel Decorative', cursive;
-        font-size: 30px
+        //font-family: 'Cormorant SC', serif;
+        font-size: 40px
       }
+      
       
 `

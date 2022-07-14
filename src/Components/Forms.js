@@ -30,6 +30,7 @@ function Forms({sendNewFighter, sendNewQuest}) {
             image: inputForImage
         }
         sendNewFighter(newFighter)
+        
 
     })
 
@@ -43,40 +44,37 @@ function Forms({sendNewFighter, sendNewQuest}) {
             Melee: inputMelee
         }
         sendNewQuest(newQuestObject)
-        
+        // console.log(newQuestObject)
     })
 
     
     return (
+        <FormDetail>
         <div className="toggleButton">
-
-            <button onClick = {()=>{setToChangeForm(!characterOrQuest)}}>
-            {characterOrQuest ? 
-                        "Add Quest"
-                        :
-                        "Add Character"
-                    }
+        <button id="toggle-button" onClick = {()=>{setToChangeForm(!characterOrQuest)}}>
+            {characterOrQuest ? "Add Quest":"Add Character"}
             </button>
-
         {characterOrQuest ?
         
             //character form 
             // <div className="characterForm">
+            
             <form onSubmit={handleSubmit}>
+                
+                <select name="Role"
+                onChange={(e) => {setInputForRole(e.target.value)}}
+                value={inputForRole}>
+                <option>Choose Role</option>
+                    <option>Mage</option>
+                    <option>Melee</option>
+                    <option>Ranged</option>
+                </select>
                 <input 
                 className="name"
                 name="name"
                 placeholder="Name"
                 onChange={(e) => {setInputForName(e.target.value)}}
                 value={inputForName}></input>
-                <select name="Role"
-                onChange={(e) => {setInputForRole(e.target.value)}}
-                value={inputForRole}>
-                <option>Choose Role</option>
-                    <option>Magic</option>
-                    <option>Melee</option>
-                    <option>Ranged</option>
-                </select>
                 <input 
                 className="abilities" 
                 name="abilities"
@@ -100,6 +98,8 @@ function Forms({sendNewFighter, sendNewQuest}) {
                 </input>
                 <button type="submit">Submit Fighter</button>  
             </form>
+
+
          :
          
             <form onSubmit={ handleQuestSubmit }>
@@ -110,8 +110,8 @@ function Forms({sendNewFighter, sendNewQuest}) {
                     <option>Choose Mage</option>
                     <option>Wanda Maximoff</option>
                     <option>Maleificent</option>
-                    <option>Samdolf</option>
-                    <option>Aang</option>
+                    <option>Samdolf the Wise</option>
+                    <option>Avatar Aang</option>
                 </select>
                 <select name="Ranged"
                 onChange={(e) => {setInputRanged(e.target.value)}}
@@ -120,7 +120,7 @@ function Forms({sendNewFighter, sendNewQuest}) {
                     <option>Hawkeye</option>
                     <option>John Wick</option>
                     <option>Hungry Hungry Hippos</option>
-                    <option>Gaara</option>
+                    <option>Gaara of the Sand</option>
                 </select>
                 <select name="Melee"
                 onChange={(e) => {setInputMelee(e.target.value)}}
@@ -138,7 +138,7 @@ function Forms({sendNewFighter, sendNewQuest}) {
                     <option>Journey to Middle Earth! Destroy the One Ring</option>
                     <option>Defeat the Empire! Destroy the Death Star</option>
                     <option>Defeat Thanos! Recover the Infinity Gauntlet</option>
-                    <option>Insert Last One</option>
+                    <option>Explore the High Seas! Locate and Recover One Piece</option>
                 </select>
                 <input 
                 placeholder="Insert adventure image url"
@@ -146,14 +146,65 @@ function Forms({sendNewFighter, sendNewQuest}) {
                 onChange={(e) => setInputQuestImg(e.target.value)}
                 value={inputQuestImg}
                 ></input>
-                <button type="submit">Submit</button>
+                <button type="submit">Submit Quest</button>
+            
             </form>
             // </div>
         
         }
-    </div> 
+    
+    </div>
+    </FormDetail>
     )  //return
 }  
     
 
 export default Forms;
+
+const FormDetail = styled.div`
+
+    form{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 40%;
+        flex-wrap: wrap;
+        box-shadow: 0px 0px 15px 10px;
+        
+    
+        button{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align: center;
+            width: 18%;
+            margin: auto;
+            background-color: #E6E6FF;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            
+        }
+        
+        
+    }
+
+input{
+    margin: 10px;
+}
+select{
+    margin: 10px;
+}
+
+#toggle-button{
+    display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align: center;
+            width: 7%;
+            margin: auto;
+            background-color: #E6E6FF;
+            margin-bottom: 10px;
+            margin-top: 10px;
+  
+}
+`

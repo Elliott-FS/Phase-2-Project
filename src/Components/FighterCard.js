@@ -40,22 +40,27 @@ export default FighterCard;
 
 const FighterDetail = styled.div`
     img{
-        max-width: 100px;
-        max-height:100px;
+        max-width: 275px;
+        max-height:275px;
         justify-content: center;
+        border-radius: 10px;
+        align-items: center;
 
-        
 }
-    
-        width: 275px;
-        height: 375px;
+    .card-container{
+        
+        width: 250px;
+        height: 365px;
         overflow: hidden;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        margin: 100px;
-        box-shadow: 0px 0px 15px 0px;
+        margin: 30px;
+        box-shadow: 0px 0px 15px 10px;
         background-color: #d8e1f2;
+        border-radius: 10px;
+        font-size: 10px
+
+
+    }
+   
         
         
     
