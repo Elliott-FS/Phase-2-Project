@@ -9,7 +9,6 @@ return(
          <h4>{eachQuestObj.desc}</h4>
          <h3>{eachQuestObj.Ranged}</h3>
          <h3>{eachQuestObj.Melee}</h3>
-         <img src={eachQuestObj.Melee_img} alt="Loading"/>
          <h3>{eachQuestObj.Mage}</h3>
         </QuestDetail>
     </div>
@@ -18,6 +17,11 @@ return(
 export default QuestCard
 
 const QuestDetail = styled.div`
+color: #E6E6FF;
+font-family: 'Space Grotesk', sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
 img{
     max-width: 200px;
     max-height: 200px

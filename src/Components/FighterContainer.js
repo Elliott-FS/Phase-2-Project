@@ -1,11 +1,13 @@
 import FighterCard from "./FighterCard"
 
- 
+
+  
 function FighterContainer(props) {
     console.log(props)
 
 return(
-    <div className="card content" >
+   
+    <div className="card-content" >
         { 
         props.arrayOfFighters.map(
             (eachFighter) => {
@@ -26,3 +28,4 @@ return(
 }
 
 export default FighterContainer; 
+

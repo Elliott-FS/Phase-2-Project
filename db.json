@@ -1,112 +1,137 @@
 {
-    "fighters": [
-        {
-            "id": 1,
-            "name": "Wanda Maximoff",
-            "role": "Mage",
-            "abilities": " telekinesis, energy manipulation, mind read, waking nightmares",
-            "hp": 350,
-            "image":"https://i.pinimg.com/736x/9f/1b/37/9f1b3782f945424d48e3f0cf8d0edd0b.jpg"
-        },
-        {
-            "id": 2,
-            "name": "Samdolf",
-            "role": "Mage",
-            "abilities":"wisest man, ability to influence beings through his mind, manipulates light into becoming fires",
-            "hp": 400,
-            "image":"https://upload.wikimedia.org/wikipedia/commons/e/ea/GANDALF.jpg"
-        },
-        {
-            "id": 3,
-            "name": "Maleficent",
-            "role":"Mage",
-            "abilities":"Telekinesis, Elemental Control, Transfiguration, Energy Manipulation/Projection, Self-Resurrection, Healing, Spell Casting, Hypnosis, Telepathy, Teleportation, Accelerated Healing Factor, Immortality, Shapeshifting",
-            "hp": 515,
-            "image":"https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-w6b5q6_1dd2d51b.jpeg?region=0%2C0%2C600%2C600"
-        },
-        {
-            "id": 4,
-            "name":"Aang",
-            "role":"Mage",
-            "abilities":" He hones the ability to bend in all four forms: air, water, earth, & fire",
-            "hp": 340,
-            "image":"https://static1.srcdn.com/wordpress/wp-content/uploads/2020/07/Aang-Avatar-The-Last-Airbender.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5"
-        },
-        {
-            "id": 5,
-            "name":"Hawkeye",
-            "role":"Ranged",
-            "abilities":"He is very accurate",
-            "hp": 375,
-            "image":"https://pbs.twimg.com/media/FDeN1vMVIAYa42A.jpg:large"
-        },
-        {
-            "id": 6,
-            "name":"John Wick",
-            "role":"Ranged",
-            "abilities":"Never Misses, Baba Yaga",
-            "hp": 450,
-            "image":"https://www.indiewire.com/wp-content/uploads/2021/07/jw-3.jpeg?w=800"
-        },
-        {
-            "id": 7,
-            "name":"Hungry Hungry Hippos",
-            "role":"Ranged",
-            "abilities":"Extendable necks, large mouths, only travel in packs of 4",
-            "hp": 400,
-            "image":"https://i.giphy.com/media/Fwn1auHR2LUGI/200.webp"
-        },
-        {
-            "id": 8,
-            "name":"Gaara",
-            "role":"Ranged",
-            "abilities":" Manipulates sand",
-            "hp":390,
-            "image":"https://qph.cf2.quoracdn.net/main-qimg-f03a839c1cd1514251b0d6e3febc4c9f.webp"
-        },
-        {
-            "id": 9,
-            "name":"Chun Li",
-            "role":"Melee",
-            "abilities":"Lightning fast martial arts, a chi energy attack called 'Kikosho'",
-            "hp": 400,
-            "image":"https://thesource.com/wp-content/uploads/2018/03/chun-li.jpg"
-        },
-        {
-            "id": 10,
-            "name":"Samurai Jack",
-            "role":"Melee",
-            "abilities":"Blade of Righteuosness: destroys evil in all forms does not harm the pure of heart",
-            "hp": 400,
-            "image":"https://images-na.ssl-images-amazon.com/images/S/pv-target-images/95eb4bc88b56a3e6cbd532f31b843dbef2d9b505f9dc85e20f7eb8d686bbddd3._SX1080_.jpg"
-        },
-        {
-            "id": 11,
-            "name":"Rock'em Sock'em(Blue)",
-            "role":"Melee",
-            "abilities":"Rock'em style boxing",
-            "hp":"1hp: will only recieve damage if struck directly under the chin",
-            "image":"https://nostalgiacentral.com/wp-content/uploads/2014/07/rockemsockemrobots443.jpg"
-        },
-        {
-            "id": 12,
-            "name": "Sub-Zero",
-            "role": "Melee",
-            "abilities":"Being the descendant of the cryomancers, Sub-Zero possesses power over ice and the ability to control it in many forms",
-            "hp": 450,
-            "image": "https://www.gameinformer.com/sites/default/files/styles/full/public/2021/04/19/87f31b68/mortal_kombat_cosplayer_sub-zero_cosplay.png"
-        }
-    ],
-    "quest": [
-        {   "Quest":"Graduation",
-            "image_quest":"https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/v1397752768/e4ce735bc7e299313e5ca95eaf86a030.png",
-            "desc":"The quest is to graduate Flatiron",
-            "Ranged":"Zev",
-            "Ranged_img":"",
-            "Melee":"Elliott",
-            "Melee_img":"https://images6.alphacoders.com/474/474469.jpg",
-            "Mage":"Hiba",
-            "Mage_img":""
-        }
-    ]
+  "fighters": [
+    {
+      "id": 1,
+      "name": "Wanda Maximoff",
+      "role": "Mage",
+      "abilities": " telekinesis, energy manipulation, mind read, waking nightmares",
+      "hp": 350,
+      "image": "https://i.pinimg.com/736x/9f/1b/37/9f1b3782f945424d48e3f0cf8d0edd0b.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Samdolf",
+      "role": "Mage",
+      "abilities": "wisest man, ability to influence beings through his mind, manipulates light into becoming fires",
+      "hp": 400,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/GANDALF.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Maleficent",
+      "role": "Mage",
+      "abilities": "Telekinesis, Elemental Control, Transfiguration, Energy Manipulation/Projection, Self-Resurrection, Healing, Spell Casting, Hypnosis, Telepathy, Teleportation, Accelerated Healing Factor, Immortality, Shapeshifting",
+      "hp": 515,
+      "image": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-w6b5q6_1dd2d51b.jpeg?region=0%2C0%2C600%2C600"
+    },
+    {
+      "id": 4,
+      "name": "Aang",
+      "role": "Mage",
+      "abilities": " He hones the ability to bend in all four forms: air, water, earth, & fire",
+      "hp": 340,
+      "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2020/07/Aang-Avatar-The-Last-Airbender.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5"
+    },
+    {
+      "id": 5,
+      "name": "Hawkeye",
+      "role": "Ranged",
+      "abilities": "He is very accurate",
+      "hp": 375,
+      "image": "https://pbs.twimg.com/media/FDeN1vMVIAYa42A.jpg:large"
+    },
+    {
+      "id": 6,
+      "name": "John Wick",
+      "role": "Ranged",
+      "abilities": "Never Misses, Baba Yaga",
+      "hp": 450,
+      "image": "https://www.indiewire.com/wp-content/uploads/2021/07/jw-3.jpeg?w=800"
+    },
+    {
+      "id": 7,
+      "name": "Hungry Hungry Hippos",
+      "role": "Ranged",
+      "abilities": "Extendable necks, large mouths, only travel in packs of 4",
+      "hp": 400,
+      "image": "https://i.giphy.com/media/Fwn1auHR2LUGI/200.webp"
+    },
+    {
+      "id": 8,
+      "name": "Gaara",
+      "role": "Ranged",
+      "abilities": " Manipulates sand",
+      "hp": 390,
+      "image": "https://qph.cf2.quoracdn.net/main-qimg-f03a839c1cd1514251b0d6e3febc4c9f.webp"
+    },
+    {
+      "id": 9,
+      "name": "Chun Li",
+      "role": "Melee",
+      "abilities": "Lightning fast martial arts, a chi energy attack called 'Kikosho'",
+      "hp": 400,
+      "image": "https://thesource.com/wp-content/uploads/2018/03/chun-li.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Samurai Jack",
+      "role": "Melee",
+      "abilities": "Blade of Righteuosness: destroys evil in all forms does not harm the pure of heart",
+      "hp": 400,
+      "image": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/95eb4bc88b56a3e6cbd532f31b843dbef2d9b505f9dc85e20f7eb8d686bbddd3._SX1080_.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Rock'em Sock'em(Blue)",
+      "role": "Melee",
+      "abilities": "Rock'em style boxing",
+      "hp": "1hp: will only recieve damage if struck directly under the chin",
+      "image": "https://c.tenor.com/GixpjhfIBEEAAAAM/rockem-sockem-punch.gif"
+    },
+    {
+      "id": 12,
+      "name": "Sub-Zero",
+      "role": "Melee",
+      "abilities": "Being the descendant of the cryomancers, Sub-Zero possesses power over ice and the ability to control it in many forms",
+      "hp": 450,
+      "image": "https://www.gameinformer.com/sites/default/files/styles/full/public/2021/04/19/87f31b68/mortal_kombat_cosplayer_sub-zero_cosplay.png"
+    },
+    {
+      "name": "Bulbasaur",
+      "role": "Melee",
+      "abilities": "Grass Type",
+      "hp": "350",
+      "image": "https://media.gamestop.com/i/gamestop/11161263/Loungefly-Pokemon-Bulbasaur-Metallic-Mini-Backpack?$pdp$",
+      "id": 13
+    },
+    {
+      "name": "GI JOE",
+      "role": "Melee",
+      "abilities": "Has",
+      "hp": "0",
+      "image": "https://m.media-amazon.com/images/I/9104IVwMMDL._AC_SY879_.jpg",
+      "id": 14
+    },
+    {
+      "name": "Anonymous",
+      "role": "Magic",
+      "abilities": "Magic",
+      "hp": "0",
+      "image": "https://m.media-amazon.com/images/I/9104IVwMMDL._AC_SY879_.jpg",
+      "id": 15
+    }
+  ],
+  "quest": [
+    {
+      "Quest": "Graduation",
+      "image_quest": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/v1397752768/e4ce735bc7e299313e5ca95eaf86a030.png",
+      "desc": "The quest is to graduate Flatiron",
+      "Ranged": "Zev",
+      "Ranged_img": "https://w7.pngwing.com/pngs/483/498/png-transparent-deadpool-desktop-film-cable-deadpool-superhero-fictional-character-deadpool.png",
+      "Melee": "Elliott",
+      "Melee_img": "https://images6.alphacoders.com/474/474469.jpg",
+      "Mage": "Hiba",
+      "Mage_img": ""
+    }
+  ]
 }

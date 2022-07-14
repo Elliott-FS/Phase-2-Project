@@ -1,12 +1,15 @@
 //import logo from './logo.svg';
 //import './App.css';
 
+import styled from 'styled-components'
 import {useState, useEffect} from 'react'
+import { Switch, Route } from 'react-router-dom';
 import Forms from "./Forms";
 import Search from "./Search";
 import Header from './Header';
 import FighterContainer from "./FighterContainer";
 import Quest from "./Quest";
+import Home from './Home'
 
 function App() {
     //quest fetch data
@@ -45,33 +48,61 @@ function App() {
             })
             setFighterList(resultOfFilter)
     } 
+    //form section 
 
-    //This may have to be moved above the search function <--HEADS UP
-    function getNewCharacterFromForm(newCharacterFromForm) {
-        //console.log("getNewCharacterFromForm:", getNewCharacterFromForm)
+    function getNewFighter(newFighterObj){
+        setFighterList([...fighterList, newFighterObj])
+        fetch('http://localhost:3000/fighters', {
+        method:"POST",
+        headers: {'Content-Type':'application/json'},
+        body: JSON.stringify(newFighterObj)
+        })
+    }
+    //quest section 
 
-        //frontEnd Updates
-        //setFighterList([newCharacterFromForm, ...fighterList])
-        //setSearchFighter([newCharacterFromForm, ...searchFighter])
-
-
-        //backEnd Updates
-
+    function getNewQuest(newQuestObj){
+        setQuestData([...questData, newQuestObj])
+        // fetch('http://localhost:3000/quest', {
+        //     method: "POST",
+        //     headers: {'Content-Type':'application/json'},
+        //     body: JSON.stringify(newQuestObj)
+        // })
     }
 
 
     return(
     <div className='App'>
+        <Image/>
         <Header />
-         <Quest arrayOfQuest={questData} />
-         <Search sendUpSearch ={getSearchBar}/>
-         <FighterContainer arrayOfFighters={fighterList}/> 
-        <Forms sendUpForm = {getNewCharacterFromForm}/>   
+        <Switch>
+          <Route  path="/quest">
+          <Quest arrayOfQuest={questData} />
+          </Route>
+          <Route  path="/fighters">  
+            <Search sendUpSearch ={getSearchBar}/> 
+            <FighterContainer arrayOfFighters={fighterList}/> 
+         </Route>
+          <Route  path="/adventure">
+            <Forms sendNewFighter={getNewFighter} sendNewQuest={getNewQuest} />   
+         </Route>
+         <Route  path="/">
+            <Home />
+           </Route> 
+         </Switch>
     </div>
 )
-}
+} 
 
 export default App;
+
+const Image = styled.img.attrs(() => ({
+    src:"https://images.pling.com/img/00/00/62/69/92/1725198/free-fantasy-wallpaper-desktop-131.jpg"
+}))` position: fixed; 
+top: 0; 
+left: 0; 
+min-width: 100%;
+min-height: 100%;
+z-index: -1`
 
 //Header
 //Nav
