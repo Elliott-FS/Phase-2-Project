@@ -41,7 +41,8 @@ function Forms({sendNewFighter, sendNewQuest}) {
             image_quest: inputQuestImg,
             Mage: inputMage,
             Ranged: inputRanged,
-            Melee: inputMelee
+            Melee: inputMelee,
+            hp: inputForHP
         }
         sendNewQuest(newQuestObject)
         // console.log(newQuestObject)
@@ -51,9 +52,11 @@ function Forms({sendNewFighter, sendNewQuest}) {
     return (
         <FormDetail>
         <div className="toggleButton">
+        <p>
         <button id="toggle-button" onClick = {()=>{setToChangeForm(!characterOrQuest)}}>
             {characterOrQuest ? "Add Quest":"Add Character"}
             </button>
+            </p>
         {characterOrQuest ?
         
             //character form 
@@ -126,7 +129,7 @@ function Forms({sendNewFighter, sendNewQuest}) {
                 onChange={(e) => {setInputMelee(e.target.value)}}
                 value={inputMelee}>
                     <option>Choose Melee</option>
-                    <option>Chun Li</option>
+                    <option>Chun-Li</option>
                     <option>Samurai Jack</option>
                     <option>Rock'em Sock'em(Blue)</option>
                     <option>Sub-Zero</option>
@@ -163,11 +166,11 @@ export default Forms;
 
 const FormDetail = styled.div`
 
-    form{
+    form{ 
         display: flex;
         flex-direction: column;
         margin: auto;
-        width: 40%;
+        width: 30%;
         flex-wrap: wrap;
         box-shadow: 0px 0px 15px 10px;
         
@@ -177,7 +180,7 @@ const FormDetail = styled.div`
             flex-direction: column;
             justify-content: center;
             align: center;
-            width: 18%;
+            width: 20%;
             margin: auto;
             background-color: #E6E6FF;
             margin-bottom: 10px;
@@ -200,11 +203,13 @@ select{
             flex-direction: column;
             justify-content: center;
             align: center;
-            width: 7%;
+            width: 5.5%;
             margin: auto;
             background-color: #E6E6FF;
             margin-bottom: 10px;
             margin-top: 10px;
+            
   
 }
+
 `

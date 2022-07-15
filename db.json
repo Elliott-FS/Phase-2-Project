@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Wanda Maximoff",
       "role": "Mage",
-      "abilities": "Telekinesis, energy manipulation, mind read, waking nightmares",
+      "abilities": "Wanda Maximoff can use her mastery of chaos magic to perform telekinesis, energy manipulation, read minds, and project waking nightmares.",
       "hp": 350,
       "image": "https://stylecaster.com/wp-content/uploads/2022/05/Doctor-Strange-in-the-Multiverse-of-Madness-5.jpg"
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "name": "Samdolf",
       "role": "Mage",
-      "abilities": "The wisest man, has the ability to influence beings through his mind, manipulates light into becoming fires",
+      "abilities": "The wisest of all wizards, Samdolf has the ability to influence beings through his mind and cast spells to summon light, fire, and influence the weather.",
       "hp": 400,
       "image": "https://ramblingeveron.com/wp-content/uploads/2016/06/gandalf.jpg"
     },
@@ -20,7 +20,7 @@
       "id": 3,
       "name": "Maleficent",
       "role": "Mage",
-      "abilities": "Telekinesis, Elemental Control, Energy Manipulation/Projection, Self-Resurrection, Immortality, Shapeshifting",
+      "abilities": "Telekinesis, Elemental Control, Energy Manipulation/Projection, Self-Resurrection, Immortality, Shapeshifting.",
       "hp": 515,
       "image": "https://www.justwatch.com/images/backdrop/163968295/s640/maleficent"
     },
@@ -28,7 +28,7 @@
       "id": 4,
       "name": "Aang",
       "role": "Mage",
-      "abilities": " He hones the ability to bend in all four forms: air, water, earth, & fire",
+      "abilities": "As the Avatar, Aang has the ability to bend the four elements to his will and summon strength from his past lives.",
       "hp": 340,
       "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2020/07/Aang-Avatar-The-Last-Airbender.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5"
     },
@@ -36,7 +36,7 @@
       "id": 5,
       "name": "Hawkeye",
       "role": "Ranged",
-      "abilities": "He is very accurate",
+      "abilities": "Being a master archer and marksman, the expert tactician 'Hawkeye' has never seen a target he cannot hit.",
       "hp": 375,
       "image": "https://thedisinsider.com/wp-content/uploads/2021/04/hawkeye-2020-artwork-3s.jpg"
     },
@@ -44,7 +44,7 @@
       "id": 6,
       "name": "John Wick",
       "role": "Ranged",
-      "abilities": "Never Misses, Baba Yaga",
+      "abilities": "A highly versatile gunman skilled with all manner of ranged weapon.'He is the one you call to kill the Boogey Man.'",
       "hp": 450,
       "image": "https://www.indiewire.com/wp-content/uploads/2021/07/jw-3.jpeg?w=800"
     },
@@ -52,7 +52,7 @@
       "id": 7,
       "name": "Hungry Hungry Hippos",
       "role": "Ranged",
-      "abilities": "Extendable necks, large mouths, only travel in packs of 4",
+      "abilities": "A heard of ravanous hippos, thier necks extend to all ranges and consume thier small plastic foes.",
       "hp": 400,
       "image": "https://media2.giphy.com/media/1eEB6PajXo34ERbE9g/200.webp?cid=ecf05e4716xf6ds1sfvqg330h4lbknh9ksnxs6xauvnitkya&rid=200.webp&ct=g"
     },
@@ -60,15 +60,15 @@
       "id": 8,
       "name": "Gaara",
       "role": "Ranged",
-      "abilities": " Manipulates sand",
+      "abilities": "Leader of the Hidden Sand Village and keeper of the Sand Spirit, Gaara commands the sands to bury his enemies from a distance.",
       "hp": 390,
       "image": "https://qph.cf2.quoracdn.net/main-qimg-f03a839c1cd1514251b0d6e3febc4c9f.webp"
     },
     {
       "id": 9,
-      "name": "Chun Li",
+      "name": "Chun-Li",
       "role": "Melee",
-      "abilities": "Lightning fast martial arts, a chi energy attack called 'Kikosho'",
+      "abilities": "A Chinese Martial Arts Master and Interpole agent, Chun-Li can summon a close range chi energy attack called 'Kikosho'.",
       "hp": 400,
       "image": "https://wallpaper.dog/large/20515592.jpg"
     },
@@ -76,7 +76,7 @@
       "id": 10,
       "name": "Samurai Jack",
       "role": "Melee",
-      "abilities": "Blade of Righteuosness: destroys evil in all forms does not harm the pure of heart",
+      "abilities": "Jack's Blade of Righteuosness he recieved from the gods destroys evil in all forms but does not harm the pure of heart.",
       "hp": 400,
       "image": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/95eb4bc88b56a3e6cbd532f31b843dbef2d9b505f9dc85e20f7eb8d686bbddd3._SX1080_.jpg"
     },
@@ -84,7 +84,7 @@
       "id": 11,
       "name": "Rock'em Sock'em(Blue)",
       "role": "Melee",
-      "abilities": "Rock'em style boxing",
+      "abilities": "The most furious of melee fighters, Rock'em Sock'em(Blue) uses his fist to topple the heads of his foes.",
       "hp": "1hp: will only recieve damage if struck directly under the chin",
       "image": "https://media2.giphy.com/media/xhNKpS0oC3wly/giphy.gif"
     },
@@ -92,7 +92,7 @@
       "id": 12,
       "name": "Sub-Zero",
       "role": "Melee",
-      "abilities": "Being the descendant of the cryomancers, Sub-Zero possesses power over ice and the ability to control it in many forms",
+      "abilities": "Being the descendant of the cryomancers, Sub-Zero possesses power over ice and the ability to control it in many forms.",
       "hp": 450,
       "image": "https://www.gameinformer.com/sites/default/files/styles/full/public/2021/04/19/87f31b68/mortal_kombat_cosplayer_sub-zero_cosplay.png"
     }
