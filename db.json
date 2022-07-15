@@ -95,6 +95,14 @@
       "abilities": "Being the descendant of the cryomancers, Sub-Zero possesses power over ice and the ability to control it in many forms.",
       "hp": 450,
       "image": "https://www.gameinformer.com/sites/default/files/styles/full/public/2021/04/19/87f31b68/mortal_kombat_cosplayer_sub-zero_cosplay.png"
+    },
+    {
+      "name": "Bulbasaur",
+      "role": "Mage",
+      "abilities": "Grass Type",
+      "hp": "350",
+      "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2021/07/Pokemon-Go-Bulbasaur-Spotlight-Hour.webp-.jpg",
+      "id": 13
     }
   ],
   "quest": [
@@ -105,6 +113,15 @@
       "Ranged": "Zev",
       "Melee": "Elliott",
       "Mage": "Hiba"
+    },
+    {
+      "Quest": "Journey to Middle Earth! Destroy the One Ring",
+      "image_quest": "http://2.bp.blogspot.com/-LdAQGvHF3VM/UB8iFyZQyPI/AAAAAAAAAHU/alnc7BW-6og/s1600/middle-earth-map.jpg",
+      "Mage": "Samdolf the Wise",
+      "Ranged": "John Wick",
+      "Melee": "Rock'em Sock'em(Blue)",
+      "hp": "",
+      "id": 2
     }
   ]
 }

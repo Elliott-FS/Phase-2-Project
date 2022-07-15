@@ -52,7 +52,6 @@ export const Nav = styled.nav`
       .nav-button{
         display: center;
         width: 100%;
-        backgound-color: #d8e1f2;
         &:hover{background-color: violet;}
        
       }

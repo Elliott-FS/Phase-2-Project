@@ -23,7 +23,7 @@ export default Search;
 
 const SearchDetail = styled.div`
 color: #E6E6FF;
-font-family: 'Space Grotesk', sans-serif;
+font-family: 'Montserrat', sans-serif;
 display: flex;
 flex-direction: column;
 align-items: center;

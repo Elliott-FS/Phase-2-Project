@@ -61,7 +61,7 @@ function App() {
     //quest section 
 
     function getNewQuest(newQuestObj){
-        console.log(questData)
+        
         setQuestData([...questData, newQuestObj])
         fetch('http://localhost:3000/quest', {
             method: "POST",
