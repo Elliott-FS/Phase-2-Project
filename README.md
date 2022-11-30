@@ -1,3 +1,24 @@
+
+Hello my Name is Elliott Wynn III and this is my Phase 2 Team Project from Flatiron school.
+
+This is a react app made using reactJS, CSS via the 'styled components' library, and a JSON client side server. My teammates for this project were Zev Geller and Hiba Rashed. 
+
+The idea was to make an adventure simulater built around pop culture action heroes, from the home page click on fighters to see a roster of characters. Then navigate to adventure to select a quest or add a character you would like to the roster, he quest Page lets you view quest currently on the page.
+
+Thank you for your interest more projects to come. 
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
