@@ -1,4 +1,4 @@
-import {Link, NavLink } from 'react-router-dom'
+import {Link} from "react-router-dom"
 
 import styled from 'styled-components'
 import '../index.css'
@@ -12,29 +12,18 @@ return(
  <Nav>
   <nav>
     <div className='Nav'>
-       {/* <Link> */}
-         <a href="/" style={{textDecoration: 'none'}}>
-          <h1>Multiverse Adventure</h1>
-         </a> 
-      {/* </Link> */}
-        {/* <Link  to="/fighters"> */}
-        <a href="/fighters">
-         <button className='nav-button'>Fighters</button>
-        </a>
-        {/* </Link> */}
-      
-        {/* <Link  to="/adventure"> */}
-        <a href="/adventure">
-        <button className='nav-button'>Adventure</button>
-        </a>
-        {/* </Link> */}
-
-        
-        {/* <Link  to="/quest"> */}
-        <a href="/quest">
-        <button className='nav-button'>Quests</button>
-        </a>
-        {/* </Link> */}
+    <button className="nav-button">
+    <Link to="/" style={{textDecoration: 'none'}}>Multiverse Adventure Sim</Link>
+    </button>
+    <button className="nav-button">
+    <Link to="/fighters" style={{textDecoration: 'none'}}>Fighters</Link>
+    </button>
+    <button className="nav-button">
+    <Link to="/adventure" style={{textDecoration: 'none'}}>Adventure</Link>
+    </button>
+    <button className="nav-button">
+    <Link to="/quest" style={{textDecoration: 'none'}}>Quest</Link>
+    </button>
     </div>
   </nav>
  </Nav>
@@ -51,7 +40,7 @@ export const Nav = styled.nav`
       
       .nav-button{
         display: center;
-        width: 100%;
+        width: 50%;
         &:hover{background-color: violet;}
        
       }
@@ -61,7 +50,7 @@ export const Nav = styled.nav`
         color: #E6E6FF;
         font-family: 'Cinzel Decorative', cursive;
         //font-family: 'Cormorant SC', serif;
-        font-size: 40px
+        font-size: 20px
       }
       
       

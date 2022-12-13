@@ -3,7 +3,7 @@
  
 import styled from 'styled-components'
 import {useState, useEffect} from 'react'
-import { Switch, Route} from 'react-router-dom';
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Forms from "./Forms";
 import Search from "./Search";
 import Header from './Header';
@@ -73,23 +73,17 @@ function App() {
 
     return(
     <div className='App'>
-        <Image/>
-        <Header />
-        <Switch>
-          <Route  path="/quest">
-          <Quest arrayOfQuest={questData} />
-          </Route>
-          <Route  path="/fighters">  
-            <Search sendUpSearch ={getSearchBar}/> 
-            <FighterContainer arrayOfFighters={fighterList}/> 
-         </Route>
-          <Route  path="/adventure">
-            <Forms sendNewFighter={getNewFighter} sendNewQuest={getNewQuest} />   
-         </Route>
-         <Route  path="/">
-            <Home />
-           </Route>
-         </Switch>
+        <BrowserRouter>
+            <Image/>
+            <Header />
+        <Routes>
+            <Route path='/quest' element={<Quest arrayOfQuest={questData} />}/>  
+            <Route path='/search' element={<Search sendUpSearch ={getSearchBar} />}/> 
+            <Route path='/fighters' element={<FighterContainer arrayOfFighters={fighterList} />}/> 
+            <Route path='/adventure' element={<Forms sendNewFighter={getNewFighter} sendNewQuest={getNewQuest} />}/>   
+            <Route path='/' element={<Home />}/>
+         </Routes>
+        </BrowserRouter>    
     </div>
 )
 } 
